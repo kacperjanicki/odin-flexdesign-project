@@ -26,6 +26,54 @@ body {
 
 .third-section {
     background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth-section {
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.okazja {
+    
+    display:flex;
+    margin:10px;
+    padding:10px;
+    background-color: #3882F6;
+    
+}
+
+h2 {
+    margin:0;
+}
+
+.lewa, .prawa {
+    gap:15px;
+    flex:1;
+}
+.lewa {
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    margin:0;
+    padding:0;
+}
+
+.prawa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.content {
+    width:380px;
+    padding:30px;
 }
 
 
@@ -100,4 +148,12 @@ body {
 h1,ul {
     color:#F9FAF8;
     list-style: none;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding:20px;
+    text-align: center;
+    font-size:12px;
 }
